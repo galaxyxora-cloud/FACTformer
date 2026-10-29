@@ -49,20 +49,8 @@ The project uses the following main dependencies:
 ### Installation
 
 1. Create a conda environment (recommended):
-```bash
-conda create -n factformer python=3.8
-conda activate factformer
-```
-
 2. Install PyTorch and torchvision (choose a compatible CUDA build using the [official PyTorch instructions](https://pytorch.org/get-started/locally/)):
-```bash
-pip install torch torchvision
-```
-
 3. Install other dependencies:
-```bash
-pip install numpy pillow scikit-image matplotlib albumentations tensorboard
-```
 
 ## Dataset Preparation
 
@@ -95,7 +83,7 @@ During training, the following augmentations are applied:
 
 ## Training and Testing
 
-### Training
+###培训
 
 To train the model from scratch:
 
