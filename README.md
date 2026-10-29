@@ -160,14 +160,6 @@ python main.py \
     --save_image True
 ```
 
-## Pre-trained Models and Results
-
-The trained model checkpoints are saved in `results/Dehazeformer/`:
-- `Best.pkl`: Best model based on validation score (PSNR + 10×SSIM)
-- `model.pkl`: Latest model weights
-- `latest_checkpoint.pth`: Latest checkpoint with optimizer and scheduler states
-
-
 
 
 **Pre-trained Models and Experimental Results:**
