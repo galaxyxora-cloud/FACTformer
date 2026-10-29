@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+results/
+runs/
+*.pth
+*.pkl
+*.pt
+data/nhhaze/
+models/DegenerativePerceptionMoudel.py
+models/freq_processing.py
+models/attention.py
